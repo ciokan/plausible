@@ -54,7 +54,7 @@ services:
         soft: 65535
         hard: 65535
     ports:
-        - 80:8888
+        - 8888:80
     environment:
       - TMPDIR=/var/lib/plausible/tmp
       # required: https://github.com/plausible/community-edition/wiki/configuration#required
